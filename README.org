@@ -10,6 +10,7 @@
     - General:
       - Connect with toolbar(Buttons like tabs)
       - Square corners
+      - No spacer on left tab bar when windowed
     - Selected:
       - Add colored tab context line above selected tab
     - Unselected:
