@@ -1,5 +1,5 @@
 * Firefox Proton Square
-[[https://github.com/leadweedy/Firefox-Proton-Square/blob/master/ff_protonbutquantum.png]]
+[[https://github.com/leadweedy/Firefox-Proton-Square/blob/main/ff_protonbutquantum.png]]
   If you are like me and hate rounded tabs, this is for you.
 
   Overall I understand why Mozilla went the direction they did with [[https://wiki.mozilla.org/Firefox/Proton][Proton]] to "modernize" the UI, but not to say that I have to like it.
