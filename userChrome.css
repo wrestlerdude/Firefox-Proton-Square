@@ -20,11 +20,6 @@ otherwise will change height when tabs overflow */
   }
 }
 
-/* adds the little colored strip on top of the selected tab */
-#tabbrowser-tabs .tabbrowser-tab[selected] .tab-context-line {
-  height: 2px !important;
-  background-color: #0a84ff !important;
-}
 
 /* FOR PROTON UI */
 /* editing the tabs to return quantum feel */
@@ -50,6 +45,12 @@ otherwise will change height when tabs overflow */
     .tab-stack {
       margin-top: 0px !important;
       margin-bottom: 0px !important;
+    }
+
+    /* adds the little colored strip on top of the selected tab */
+    .tabbrowser-tab[selected] .tab-context-line {
+      height: 2px !important;
+      background-color: #0a84ff !important;
     }
 
     /* neighbouring tabs should "pinch" together */
