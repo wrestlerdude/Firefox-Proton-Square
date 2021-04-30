@@ -21,6 +21,7 @@
 
 ** Suggested Tweaks (about:config)
   - set =browser.tabs.tabMinWidth= to =150= px or desired width
+  - set =widget.non-native-theme.gtk.scrollbar.round-thumb= to =false= to square the scrollbar (linux only)
 
 ** How to Install?
 
