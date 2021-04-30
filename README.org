@@ -1,54 +1,26 @@
-* Firefox UI FIX
-  [[https://wiki.mozilla.org/Firefox/Proton][proton]] is firefox's new design. \\
-  I want to fix some flaws.
+* Firefox Proton Square
+[[https://github.com/leadweedy/Firefox-Proton-Square/blob/master/ff_protonbutquantum.png]]
+  If you are like me and hate rounded tabs, this is for you.
 
-  Currently work only dark theme.
-  [[https://user-images.githubusercontent.com/25581533/116494051-8def6c00-a88f-11eb-9c21-53643605aba2.png]]
-
-  (Fixed proton design)
+  Overall I understand why Mozilla went the direction they did with [[https://wiki.mozilla.org/Firefox/Proton][Proton]] to "modernize" the UI, but not to say that I have to like it.
+  
+  These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI.
 
   - *Tab Design*
     - General:
       - Connect with toolbar(Buttons like tabs)
+      - Square corners
     - Selected:
-      - Box Shadow: Highlight the selected tab
-    - Unselect:
-      - Divide Line: React to hover like chrome
-    - Clipped:
-      - Cleary Text: Adjusted clipped gradation
-    - Sound:
-      - Show Favicon: Always show favicon
-  - *Activity Stream Design*
-    - Search Bar:
-      - Focused Shadow: Same as the accent color
-    - Icons:
-      - Size: Fill it up
+      - Add colored tab context line above selected tab
+    - Unselected:
+      - Divide Line: full height and colored like Quantum
+      - Remove white space between tabs
+  - *Menu Design*
+    - General:
+      - Square corners on most popup menus
 
-** WHY Proton?
-   I think a lot has improved.
-
-   [[https://user-images.githubusercontent.com/25581533/116493283-ecb3e600-a88d-11eb-8cf4-d1cf428dbb0e.png]]
-
-   (pure proton design)
-
-   - Neatly organized menu
-   - Icon beautiful enough to remind you of Edge
-   - Nice color scheme
-   - Satisfied Rounding
-   - Modal window!!
-
-** WHY Not Proton?
-   However, there are also many flaws.
-
-   [[https://user-images.githubusercontent.com/25581533/116494039-86c85e00-a88f-11eb-8bb5-986fc464a149.png]]
-
-   (proton before design)
-
-   - [x] Is it a tab or a button?
-   - [] Where are the menu icons?
-   - [x] Icons in ActivityStream are too small
-   - [] Padding gaps are wide
-   - :warning: Address bar 3-point menu, screenshot moves to toolbar (can't fix)
+** Suggested Tweaks (about:config)
+  - set =browser.tabs.tabMinWidth= to =150= px or desired width
 
 ** How to Install?
 
