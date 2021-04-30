@@ -1,6 +1,6 @@
 /* sets the height of the tab toolbar
 otherwise will change height when tabs overflow */
-#TabsToolbar { height: 35px !important; }
+#TabsToolbar { height: 32px !important; }
 
 /* Remove Back button circle, QUANTUM ONLY */
 /* #back-button:not(:hover), #back-button:not(:hover) > .toolbarbutton-icon {
@@ -20,6 +20,10 @@ otherwise will change height when tabs overflow */
   }
 }
 
+/* Reduce left spacer on tab bar */
+.titlebar-spacer[type="pre-tabs"] {
+  display: none !important;
+}
 
 /* FOR PROTON UI */
 /* editing the tabs to return quantum feel */
@@ -89,4 +93,5 @@ otherwise will change height when tabs overflow */
     opacity: var(--tab-separator-opacity) !important;
   }
 
-}
+} 
+   
