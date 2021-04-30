@@ -2,6 +2,10 @@
 otherwise will change height when tabs overflow */
 #TabsToolbar { height: 32px !important; }
 
+:root{
+  --tab-min-height:  32px !important;
+}
+
 /* Remove Back button circle, QUANTUM ONLY */
 /* #back-button:not(:hover), #back-button:not(:hover) > .toolbarbutton-icon {
     transform: scale(.95,.95) !important; 
