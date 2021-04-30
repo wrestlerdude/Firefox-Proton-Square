@@ -1,0 +1,7 @@
+@-moz-document url(about:home), url(about:newtab) {
+    /* .outer-wrapper.newtab-experience .search-wrapper .search-handoff-button{ */
+      body .search-handoff-button{
+      /* border: 1px solid !important; */
+      border-radius: 0px !important;
+    }
+   }
