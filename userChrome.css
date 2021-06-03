@@ -8,6 +8,10 @@ and more closely match the height of quantum's compact density */
 
 :root{
   --tab-min-height:  32px !important;
+  /* reduce padding between menu items */
+  --arrowpanel-menuitem-padding: 6px 8px !important;
+  --arrowpanel-menuitem-margin: 0 4px !important;
+  --panel-subview-body-padding: 4px 0 !important;
 }
 
 /* Remove Back button circle, QUANTUM ONLY */
