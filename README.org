@@ -6,6 +6,30 @@
   
   These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI.
 
+** Introduction
+  [[https://wiki.mozilla.org/Firefox/Proton][Proton]] is Firefox's new design, starting from Firefox 89. \\
+  [[https://design.firefox.com/photon/][Photon]] is the old design of Firefox which was used until version 88.
+
+  Proton's [[#why-proton][overall feel is good]], but there were a few things I [[#why-not-proton][didn't like]] and wanted to improve. \\
+  That's why this project was born, and Lepton to denote light theme layer.
+
+  /Disclaimer:/ It works *Firefox 89* and above!!
+  | *Wiki*      |                               |      | |
+  | [[https://github.com/black7375/Firefox-UI-Fix/wiki/Installation-Guide][Installation Guide]] | [[https://github.com/black7375/Firefox-UI-Fix/wiki/Screenshots][Screenshots]] | [[https://github.com/black7375/Firefox-UI-Fix/wiki/Compatibility-Issues-Solution][Compatibility Issues Solution]] | [[https://github.com/black7375/Firefox-UI-Fix/wiki/Tips][Tips]] |
+
+  [[https://user-images.githubusercontent.com/25581533/119774062-20942280-beb1-11eb-80aa-c18dd52f18d7.png]]
+ 
+ (Lepton's design :arrow_up:)
+
+  - *Color*
+    - Windows system theme support
+  - *Icons*
+    - Panel
+  - *Padding Narrower*
+    - Tab
+    - Panel
+    - Menu
+    - Density
   - *Tab Design*
     - General:
       - Connect with toolbar(Buttons like tabs)
@@ -25,16 +49,12 @@
   - set =widget.non-native-theme.gtk.scrollbar.round-thumb= to =false= to square the scrollbar (linux only)
   - change =layout.css.devPixelsPerPx= to scale the whole browser (1.0 represents 100% scaling)
 
-** How to Install?
+** Padding Comparisons
+  [[https://user-images.githubusercontent.com/25581533/120262626-8c97d180-c289-11eb-87a6-68e285d6d77c.png]]
+  [[https://user-images.githubusercontent.com/25581533/120253257-6ae11f00-c276-11eb-93cf-393f9845f30b.png]]
+  [[https://user-images.githubusercontent.com/25581533/118402352-1e33fc00-b659-11eb-89fc-3cb38207fe39.png]]
+  [[https://user-images.githubusercontent.com/25581533/116781623-930d1080-aa73-11eb-8fc7-14c238b73bfe.png]]
 
-  1. Enable =userChrome.css= Support.
-     - Go to =about:config=
-     - =toolkit.legacyUserProfileCustomizations.stylesheets= to =true=
-     - =svg.context-properties.content.enabled= to =true=
-  2. Find Profile Directory.
-     - Go to =about:support=
-     - Open Profile Directory
-  3. Copy File
-     - create =chrome= directory at profile
-     - copy files
-  4. Restart
+  - Photon (Quantum)
+  - Proton
+  - Lepton
