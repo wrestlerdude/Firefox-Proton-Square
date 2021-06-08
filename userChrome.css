@@ -1,11 +1,3 @@
-/* sets the height of the tab toolbar
-otherwise will change height when tabs overflow */
-#TabsToolbar { height: 33px !important; }
-
-/* reduce height of navbar/urlbar to remove unnecessary white space
-and more closely match the height of quantum's compact density */
-#nav-bar { height: 35px !important; }
-
 :root{
   --tab-min-height:  32px !important;
   /* reduce padding between menu items */
