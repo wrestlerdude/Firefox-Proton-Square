@@ -1,5 +1,5 @@
 * Firefox Proton Square
-Below is adapted from a fork of Lepton. All contents belong to the original owners, with additional tweaks added to my own preference, and allowing updates from Lepton to be added.
+Below is adapted from a fork of Lepton. All contents belong to the original owners, with additional tweaks added to my own preference, and allowing updates from Lepton to be merged.
 
 [[https://github.com/leadweedy/Firefox-Proton-Square/blob/main/ff_protonbutquantum.png]]
   If you are like me and hate rounded tabs, this is for you.
