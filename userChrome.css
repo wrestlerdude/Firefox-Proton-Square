@@ -14,14 +14,6 @@ and more closely match the height of quantum's compact density */
   --panel-subview-body-padding: 4px 0 !important;
 }
 
-/* Remove Back button circle, QUANTUM ONLY */
-/* #back-button:not(:hover), #back-button:not(:hover) > .toolbarbutton-icon {
-    transform: scale(.95,.95) !important; 
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    } */
-
 /* removes the rounded corners from menus */
 @-moz-document url-prefix(chrome://browser/content/){
   .panel-arrowcontent,
